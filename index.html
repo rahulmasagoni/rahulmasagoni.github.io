@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,12 +24,12 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   />
 
-  <!-- Smooth Scrolling -->
   <style>
     html {
       scroll-behavior: smooth;
     }
   </style>
+
 </head>
 
 
@@ -38,6 +39,7 @@
   <!-- =========================================================
        NAVBAR
   ========================================================== -->
+
   <header class="bg-gray-800 shadow sticky top-0 z-50">
 
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
@@ -100,6 +102,7 @@
           LinkedIn
         </a>
 
+
         <a
           href="https://github.com/rahulmasagoni"
           target="_blank"
@@ -121,21 +124,25 @@
   <!-- =========================================================
        HERO SECTION
   ========================================================== -->
+
   <section id="home" class="py-20 px-4 bg-gray-900">
 
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
 
 
       <!-- Hero Text -->
+
       <div class="flex-1 text-center md:text-left">
 
         <h2 class="text-4xl font-extrabold mb-4 text-white">
           Hi, I'm Rahul Masagoni
         </h2>
 
+
         <h3 class="text-xl text-blue-400 font-semibold mb-4">
           Robotics Software Engineer | Autonomous Systems & Perception
         </h3>
+
 
         <p class="mb-6 max-w-xl text-gray-300 leading-relaxed">
 
@@ -181,6 +188,7 @@
 
 
       <!-- Profile Image -->
+
       <div class="flex-1 flex justify-center mt-10 md:mt-0">
 
         <img
@@ -201,6 +209,7 @@
   <!-- =========================================================
        PROFESSIONAL EXPERIENCE
   ========================================================== -->
+
   <section id="experience" class="py-20 bg-gray-800 px-4">
 
     <div class="max-w-7xl mx-auto">
@@ -212,62 +221,86 @@
 
 
       <p class="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-        Applied experience in computer vision, robotics,
-        machine learning, and AI-driven software development.
+        Applied experience in computer vision, machine learning,
+        robotics, and AI-driven software development.
       </p>
 
 
 
-      <div class="grid md:grid-cols-2 gap-8">
+      <!-- Community Dreams Foundation -->
+
+      <div class="max-w-5xl mx-auto bg-gray-900 p-8 rounded-lg shadow">
 
 
-        <!-- CITadel Twin -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <!-- Company Header -->
 
+        <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-8">
 
-          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+          <div>
 
-            <div>
+            <h3 class="text-2xl font-semibold text-white">
+              Community Dreams Foundation
+            </h3>
 
-              <h3 class="text-xl font-semibold text-white">
-                Citadel Twin
-              </h3>
-
-              <p class="text-blue-400 font-medium">
-                Computer Vision & 3D Reconstruction
-              </p>
-
-            </div>
-
-
-            <span class="text-gray-500 text-sm mt-2 sm:mt-0">
-              2026 – Present
-            </span>
+            <p class="text-blue-400 font-medium text-lg">
+              Machine Learning Engineer
+            </p>
 
           </div>
 
 
-          <p class="text-gray-400 mb-4 leading-relaxed">
+          <span class="text-gray-500 text-sm mt-2 md:mt-0">
+            2026 – Present
+          </span>
 
-            Contributing to a computer vision pipeline that transforms
-            2D architectural blueprints into structured 3D building models.
-            Working on architectural element detection, dimension extraction,
-            geometric processing, and conversion of detected floor-plan
-            elements into 3D representations.
+        </div>
+
+
+
+        <!-- =====================================================
+             CURRENT PROJECT — CITADEL TWIN
+        ====================================================== -->
+
+        <div class="mb-8">
+
+
+          <p class="text-gray-500 text-sm font-semibold uppercase tracking-wide mb-2">
+            Current Project
+          </p>
+
+
+          <h4 class="text-xl font-semibold text-white mb-1">
+            Citadel Twin
+          </h4>
+
+
+          <p class="text-blue-400 font-medium mb-4">
+            2D Blueprint to 3D Building Reconstruction
+          </p>
+
+
+          <p class="text-gray-400 mb-5 leading-relaxed">
+
+            Contributing to the development of a computer vision pipeline
+            that transforms 2D architectural blueprints into structured
+            3D building models. The workflow combines object detection,
+            OCR, geometric processing, and 3D reconstruction to identify
+            architectural elements and convert floor-plan information
+            into digital building representations.
 
           </p>
 
 
-          <ul class="text-gray-400 space-y-2 mb-5 list-disc list-inside">
+          <ul class="text-gray-400 space-y-3 mb-5 list-disc list-inside">
 
             <li>
-              Working with YOLO-based detection of walls, doors,
-              windows, and architectural elements.
+              Working with YOLO-based detection of architectural elements
+              including walls, doors, and windows from 2D floor plans.
             </li>
 
             <li>
-              Using OCR to extract dimensions, annotations,
-              and textual information from floor plans.
+              Using OCR to extract dimensions, annotations, and textual
+              information from architectural drawings.
             </li>
 
             <li>
@@ -276,8 +309,13 @@
             </li>
 
             <li>
-              Supporting the elevation of 2D walls, doors, and windows
-              into structured 3D building models.
+              Working on the representation and positioning of doors
+              and windows for elevation into the 3D model.
+            </li>
+
+            <li>
+              Supporting the conversion of processed 2D geometry into
+              structured 3D building representations.
             </li>
 
           </ul>
@@ -285,7 +323,7 @@
 
           <p class="text-blue-400 text-sm font-medium">
             Python • YOLO • OCR • OpenCV • Computer Vision •
-            Image Processing • 3D Reconstruction
+            Image Processing • Geometry Processing • 3D Reconstruction
           </p>
 
 
@@ -293,71 +331,43 @@
 
 
 
-        <!-- Community Dreams Foundation -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <!-- Divider -->
+
+        <div class="border-t border-gray-700 my-8"></div>
 
 
-          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
 
-            <div>
+        <!-- =====================================================
+             ADDITIONAL MACHINE LEARNING WORK
+        ====================================================== -->
 
-              <h3 class="text-xl font-semibold text-white">
-                Community Dreams Foundation
-              </h3>
-
-              <p class="text-blue-400 font-medium">
-                Machine Learning Engineer
-              </p>
-
-            </div>
+        <div>
 
 
-            <span class="text-gray-500 text-sm mt-2 sm:mt-0">
-              2026 – Present
-            </span>
-
-          </div>
+          <h4 class="text-lg font-semibold text-white mb-4">
+            Additional Machine Learning Work
+          </h4>
 
 
-          <p class="text-gray-400 mb-4 leading-relaxed">
-
-            Developing machine learning and AI prototypes with a focus
-            on practical NLP and retrieval-based systems. Developed a
-            retrieval-augmented generation chatbot prototype combining
-            semantic document retrieval with language-model-based
-            response generation.
-
-          </p>
-
-
-          <ul class="text-gray-400 space-y-2 mb-5 list-disc list-inside">
+          <ul class="text-gray-400 space-y-3 list-disc list-inside">
 
             <li>
-              Developed a RAG pipeline using sentence-transformer
-              embeddings for semantic document retrieval.
+              Developed and tested a retrieval-augmented generation (RAG)
+              prototype using semantic embeddings and cosine-similarity
+              retrieval over custom knowledge-base content.
             </li>
 
             <li>
-              Implemented cosine-similarity search to retrieve relevant
-              knowledge-base content for user queries.
-            </li>
-
-            <li>
-              Integrated FLAN-T5 for context-aware response generation
-              using retrieved information.
-            </li>
-
-            <li>
-              Built and tested custom knowledge bases and evaluated
-              retrieval and generated responses.
+              Integrated sentence-transformer embeddings and FLAN-T5
+              for information retrieval and context-aware response generation.
             </li>
 
           </ul>
 
 
-          <p class="text-blue-400 text-sm font-medium">
-            Python • Machine Learning • RAG • NLP •
-            Sentence Transformers • FLAN-T5
+          <p class="text-blue-400 text-sm font-medium mt-5">
+            Python • RAG • NLP • Sentence Transformers •
+            Cosine Similarity • FLAN-T5
           </p>
 
 
@@ -375,6 +385,7 @@
   <!-- =========================================================
        PROJECTS SECTION
   ========================================================== -->
+
   <section id="projects" class="py-20 bg-gray-900 px-4">
 
     <div class="max-w-7xl mx-auto">
@@ -395,7 +406,11 @@
       <div class="grid md:grid-cols-2 gap-8">
 
 
-        <!-- Project 1 -->
+
+        <!-- =====================================================
+             PROJECT 1
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -420,7 +435,10 @@
 
 
 
-        <!-- Project 2 -->
+        <!-- =====================================================
+             PROJECT 2
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -444,7 +462,10 @@
 
 
 
-        <!-- Project 3 -->
+        <!-- =====================================================
+             PROJECT 3
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -467,7 +488,10 @@
 
 
 
-        <!-- Project 4 -->
+        <!-- =====================================================
+             PROJECT 4
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -491,7 +515,10 @@
 
 
 
-        <!-- Project 5 -->
+        <!-- =====================================================
+             PROJECT 5
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -502,8 +529,7 @@
 
             Developed a stereo visual odometry pipeline using OpenCV
             for feature detection, feature matching, motion estimation,
-            and robot trajectory reconstruction from stereo image
-            sequences.
+            and robot trajectory reconstruction from stereo image sequences.
 
           </p>
 
@@ -515,7 +541,10 @@
 
 
 
-        <!-- Project 6 -->
+        <!-- =====================================================
+             PROJECT 6
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -539,7 +568,10 @@
 
 
 
-        <!-- Project 7 -->
+        <!-- =====================================================
+             PROJECT 7
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -563,7 +595,10 @@
 
 
 
-        <!-- Project 8 -->
+        <!-- =====================================================
+             PROJECT 8
+        ====================================================== -->
+
         <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
@@ -597,6 +632,7 @@
   <!-- =========================================================
        CONTACT SECTION
   ========================================================== -->
+
   <section id="contact" class="py-20 px-4 bg-gray-800">
 
     <div class="max-w-2xl mx-auto text-center">
@@ -618,6 +654,7 @@
       </p>
 
 
+
       <p class="mb-4">
 
         <strong class="text-gray-200">
@@ -632,6 +669,7 @@
         </a>
 
       </p>
+
 
 
       <div class="flex justify-center gap-6 mt-6">
@@ -661,7 +699,6 @@
 
       </div>
 
-
     </div>
 
   </section>
@@ -671,6 +708,7 @@
   <!-- =========================================================
        FOOTER
   ========================================================== -->
+
   <footer class="bg-gray-900 text-gray-500 text-center py-6 border-t border-gray-800">
 
     <p>
@@ -681,4 +719,5 @@
 
 
 </body>
+
 </html>
