@@ -8,7 +8,7 @@
 
   <meta
     name="description"
-    content="Portfolio of Rahul Masagoni, a Robotics Software Engineer specializing in autonomous systems, ROS, computer vision, motion planning, SLAM, and machine learning."
+    content="Portfolio of Rahul Masagoni, Robotics Software Engineer specializing in autonomous systems, computer vision, motion planning, SLAM, reinforcement learning, and machine learning."
   />
 
   <!-- Tailwind CSS -->
@@ -22,24 +22,45 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   />
+
+  <!-- Smooth Scrolling -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
+
 
 <body class="bg-gray-900 text-gray-100">
 
-  <!-- Navbar -->
+
+  <!-- =========================================================
+       NAVBAR
+  ========================================================== -->
   <header class="bg-gray-800 shadow sticky top-0 z-50">
+
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
 
       <h1 class="text-xl font-bold text-blue-400">
         Rahul's Portfolio
       </h1>
 
+
       <nav class="space-x-6 hidden md:block">
+
         <a
           href="#home"
           class="text-gray-300 hover:text-blue-400 font-medium"
         >
           Home
+        </a>
+
+        <a
+          href="#experience"
+          class="text-gray-300 hover:text-blue-400 font-medium"
+        >
+          Experience
         </a>
 
         <a
@@ -63,7 +84,9 @@
         >
           Contact
         </a>
+
       </nav>
+
 
       <div class="space-x-4 hidden md:flex">
 
@@ -88,14 +111,20 @@
         </a>
 
       </div>
+
     </div>
+
   </header>
 
 
-  <!-- Hero Section -->
+
+  <!-- =========================================================
+       HERO SECTION
+  ========================================================== -->
   <section id="home" class="py-20 px-4 bg-gray-900">
 
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+
 
       <!-- Hero Text -->
       <div class="flex-1 text-center md:text-left">
@@ -109,15 +138,21 @@
         </h3>
 
         <p class="mb-6 max-w-xl text-gray-300 leading-relaxed">
+
           I am a Robotics and Mechatronics Engineer with an M.S. in Robotics
           from the University at Buffalo and a B.Tech in Mechatronics
           Engineering from SRM University.
+
           My work focuses on autonomous robotics, computer vision,
-          motion planning, SLAM, perception, and machine learning.
-          I have hands-on project experience using Python, C++, ROS,
-          OpenCV, PyTorch, Gazebo, and MATLAB to develop and evaluate
-          intelligent robotic systems.
+          motion planning, SLAM, perception, reinforcement learning,
+          and machine learning.
+
+          I have hands-on experience using Python, C++, ROS, OpenCV,
+          PyTorch, Gazebo, and MATLAB to develop and evaluate intelligent
+          robotic and AI systems.
+
         </p>
+
 
         <div class="flex flex-wrap justify-center md:justify-start gap-4">
 
@@ -130,17 +165,19 @@
             Download Resume
           </a>
 
+
           <a
-            href="#projects"
+            href="#experience"
             class="border border-blue-500 text-blue-400 px-6 py-3 rounded hover:bg-blue-500 hover:text-white inline-block"
           >
-            <i class="fas fa-code mr-2"></i>
-            View Projects
+            <i class="fas fa-briefcase mr-2"></i>
+            View Experience
           </a>
 
         </div>
 
       </div>
+
 
 
       <!-- Profile Image -->
@@ -154,41 +191,225 @@
 
       </div>
 
+
     </div>
+
   </section>
 
 
-  <!-- Projects Section -->
-  <section id="projects" class="py-20 bg-gray-800 px-4">
+
+  <!-- =========================================================
+       PROFESSIONAL EXPERIENCE
+  ========================================================== -->
+  <section id="experience" class="py-20 bg-gray-800 px-4">
 
     <div class="max-w-7xl mx-auto">
+
+
+      <h2 class="text-3xl font-bold mb-4 text-center text-white">
+        Professional Experience
+      </h2>
+
+
+      <p class="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+        Applied experience in computer vision, robotics,
+        machine learning, and AI-driven software development.
+      </p>
+
+
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+
+        <!-- CITadel Twin -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+
+            <div>
+
+              <h3 class="text-xl font-semibold text-white">
+                Citadel Twin
+              </h3>
+
+              <p class="text-blue-400 font-medium">
+                Computer Vision & 3D Reconstruction
+              </p>
+
+            </div>
+
+
+            <span class="text-gray-500 text-sm mt-2 sm:mt-0">
+              2026 – Present
+            </span>
+
+          </div>
+
+
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
+            Contributing to a computer vision pipeline that transforms
+            2D architectural blueprints into structured 3D building models.
+            Working on architectural element detection, dimension extraction,
+            geometric processing, and conversion of detected floor-plan
+            elements into 3D representations.
+
+          </p>
+
+
+          <ul class="text-gray-400 space-y-2 mb-5 list-disc list-inside">
+
+            <li>
+              Working with YOLO-based detection of walls, doors,
+              windows, and architectural elements.
+            </li>
+
+            <li>
+              Using OCR to extract dimensions, annotations,
+              and textual information from floor plans.
+            </li>
+
+            <li>
+              Contributing to room-boundary processing and geometric
+              refinement of detected floor-plan elements.
+            </li>
+
+            <li>
+              Supporting the elevation of 2D walls, doors, and windows
+              into structured 3D building models.
+            </li>
+
+          </ul>
+
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • YOLO • OCR • OpenCV • Computer Vision •
+            Image Processing • 3D Reconstruction
+          </p>
+
+
+        </div>
+
+
+
+        <!-- Community Dreams Foundation -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+
+          <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+
+            <div>
+
+              <h3 class="text-xl font-semibold text-white">
+                Community Dreams Foundation
+              </h3>
+
+              <p class="text-blue-400 font-medium">
+                Machine Learning Engineer
+              </p>
+
+            </div>
+
+
+            <span class="text-gray-500 text-sm mt-2 sm:mt-0">
+              2026 – Present
+            </span>
+
+          </div>
+
+
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
+            Developing machine learning and AI prototypes with a focus
+            on practical NLP and retrieval-based systems. Developed a
+            retrieval-augmented generation chatbot prototype combining
+            semantic document retrieval with language-model-based
+            response generation.
+
+          </p>
+
+
+          <ul class="text-gray-400 space-y-2 mb-5 list-disc list-inside">
+
+            <li>
+              Developed a RAG pipeline using sentence-transformer
+              embeddings for semantic document retrieval.
+            </li>
+
+            <li>
+              Implemented cosine-similarity search to retrieve relevant
+              knowledge-base content for user queries.
+            </li>
+
+            <li>
+              Integrated FLAN-T5 for context-aware response generation
+              using retrieved information.
+            </li>
+
+            <li>
+              Built and tested custom knowledge bases and evaluated
+              retrieval and generated responses.
+            </li>
+
+          </ul>
+
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • Machine Learning • RAG • NLP •
+            Sentence Transformers • FLAN-T5
+          </p>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================================================
+       PROJECTS SECTION
+  ========================================================== -->
+  <section id="projects" class="py-20 bg-gray-900 px-4">
+
+    <div class="max-w-7xl mx-auto">
+
 
       <h2 class="text-3xl font-bold mb-4 text-center text-white">
         Projects
       </h2>
 
+
       <p class="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-        Selected projects in robotics, autonomous navigation,
-        computer vision, reinforcement learning, and machine learning.
+        Selected projects in autonomous robotics, reinforcement learning,
+        computer vision, SLAM, perception, and motion planning.
       </p>
+
 
 
       <div class="grid md:grid-cols-2 gap-8">
 
 
         <!-- Project 1 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
             Multi-Agent Reinforcement Learning for Swarm Coverage
           </h3>
 
-          <p class="text-gray-400 mb-4">
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
             Developed a multi-agent reinforcement learning system for
-            autonomous coverage using 20 agents in a 20×20 environment.
-            Trained the agents using TRPO for approximately one million
+            autonomous coverage using 20 agents in a 20×20 grid environment.
+            Trained agents using TRPO for approximately one million
             simulation steps and achieved approximately 94% evaluation
             coverage.
+
           </p>
 
           <p class="text-blue-400 text-sm font-medium">
@@ -198,60 +419,92 @@
         </div>
 
 
+
         <!-- Project 2 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
-            2D Blueprint to 3D Building Reconstruction
+            Autonomous Robot Navigation
           </h3>
 
-          <p class="text-gray-400 mb-4">
-            Contributing to a computer vision pipeline that converts
-            2D architectural blueprints into structured 3D building models.
-            The workflow combines object detection, OCR, geometric
-            processing, room-boundary analysis, and 3D model generation
-            for walls, doors, and windows.
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
+            Developed autonomous navigation workflows for mobile robots
+            using ROS and Gazebo. Implemented Bug2 navigation for
+            goal-directed movement and obstacle avoidance in simulated
+            environments.
+
           </p>
 
           <p class="text-blue-400 text-sm font-medium">
-            Python • YOLO • OCR • Computer Vision • 3D Reconstruction
+            ROS • Python • Gazebo • TurtleBot3 • Autonomous Navigation
           </p>
 
         </div>
+
 
 
         <!-- Project 3 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
-            Autonomous Robot Navigation & Motion Planning
+            RRT-Based Motion Planning
           </h3>
 
-          <p class="text-gray-400 mb-4">
-            Implemented autonomous navigation and motion-planning
-            algorithms including Bug2, RRT, and Hybrid A*.
-            Developed collision-aware planning and navigation workflows
-            using ROS and Gazebo for simulated mobile robots.
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
+            Implemented an RRT-based sampling planner for autonomous
+            robot navigation with collision checking and obstacle-aware
+            path generation in simulated environments.
+
           </p>
 
           <p class="text-blue-400 text-sm font-medium">
-            ROS • Python • Gazebo • RRT • Hybrid A* • Motion Planning
+            ROS • Python • RRT • Motion Planning • Collision Detection
           </p>
 
         </div>
 
 
+
         <!-- Project 4 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            SLAM-Based Cost Map Generation with LiDAR
+          </h3>
+
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
+            Processed LiDAR and mapping data to generate dense
+            environmental representations and convert them into 2D
+            cost maps for autonomous navigation and obstacle-aware
+            motion planning.
+
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            ROS • SLAM • LiDAR • Point Clouds • Cost Maps
+          </p>
+
+        </div>
+
+
+
+        <!-- Project 5 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
             Stereo Visual Odometry
           </h3>
 
-          <p class="text-gray-400 mb-4">
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
             Developed a stereo visual odometry pipeline using OpenCV
             for feature detection, feature matching, motion estimation,
-            and robot trajectory reconstruction from stereo image sequences.
+            and robot trajectory reconstruction from stereo image
+            sequences.
+
           </p>
 
           <p class="text-blue-400 text-sm font-medium">
@@ -261,80 +514,21 @@
         </div>
 
 
-        <!-- Project 5 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
-
-          <h3 class="text-xl font-semibold text-white mb-3">
-            Automatic Image Colorization Using CNNs
-          </h3>
-
-          <p class="text-gray-400 mb-4">
-            Developed a CNN-based image colorization model for converting
-            grayscale images into realistic color outputs. Implemented
-            the training pipeline in PyTorch using Tiny ImageNet and
-            evaluated performance using MSE, SSIM, and PSNR.
-          </p>
-
-          <p class="text-blue-400 text-sm font-medium">
-            Python • PyTorch • CNN • Deep Learning • Computer Vision
-          </p>
-
-        </div>
-
 
         <!-- Project 6 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
-
-          <h3 class="text-xl font-semibold text-white mb-3">
-            SLAM-Based Cost Map Generation with LiDAR
-          </h3>
-
-          <p class="text-gray-400 mb-4">
-            Processed LiDAR and mapping data to generate point clouds
-            and convert environmental information into 2D cost maps
-            for autonomous robot navigation and obstacle-aware planning.
-          </p>
-
-          <p class="text-blue-400 text-sm font-medium">
-            ROS • SLAM • LiDAR • Point Clouds • Autonomous Navigation
-          </p>
-
-        </div>
-
-
-        <!-- Project 7 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
-
-          <h3 class="text-xl font-semibold text-white mb-3">
-            Smart IoT-Based Integrated Farming
-          </h3>
-
-          <p class="text-gray-400 mb-4">
-            Developed an IoT-based agricultural monitoring system
-            integrating environmental sensors, embedded hardware,
-            and an Adafruit dashboard. The system also incorporated
-            image-processing-based rodent detection.
-          </p>
-
-          <p class="text-blue-400 text-sm font-medium">
-            IoT • Embedded Systems • Sensors • Image Processing
-          </p>
-
-        </div>
-
-
-        <!-- Project 8 -->
-        <div class="bg-gray-900 p-6 rounded-lg shadow">
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
 
           <h3 class="text-xl font-semibold text-white mb-3">
             Energy-Efficient Optimal Path Planning
           </h3>
 
-          <p class="text-gray-400 mb-4">
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
             Developed an energy-aware autonomous path-planning approach
             using Hybrid A* to generate feasible trajectories while
-            considering travel time, vehicle constraints, and energy
+            considering travel time, motion constraints, and energy
             consumption.
+
           </p>
 
           <p class="text-blue-400 text-sm font-medium">
@@ -344,24 +538,83 @@
         </div>
 
 
+
+        <!-- Project 7 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Automatic Image Colorization Using CNNs
+          </h3>
+
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
+            Developed a CNN-based image colorization model for converting
+            grayscale images into realistic color outputs. Implemented
+            the model in PyTorch using the Tiny ImageNet dataset and
+            evaluated performance using MSE, SSIM, and PSNR.
+
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • PyTorch • CNN • Deep Learning • Computer Vision
+          </p>
+
+        </div>
+
+
+
+        <!-- Project 8 -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Smart IoT-Based Integrated Farming
+          </h3>
+
+          <p class="text-gray-400 mb-4 leading-relaxed">
+
+            Developed an IoT-based agricultural monitoring system
+            integrating environmental sensors, embedded hardware,
+            and an Adafruit dashboard. The system also incorporated
+            image-processing-based rodent detection.
+
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            IoT • Embedded Systems • Sensors • Image Processing
+          </p>
+
+        </div>
+
+
       </div>
+
     </div>
+
   </section>
 
 
-  <!-- Contact Section -->
-  <section id="contact" class="py-20 px-4 bg-gray-900">
+
+  <!-- =========================================================
+       CONTACT SECTION
+  ========================================================== -->
+  <section id="contact" class="py-20 px-4 bg-gray-800">
 
     <div class="max-w-2xl mx-auto text-center">
+
 
       <h2 class="text-3xl font-bold mb-4 text-white">
         Contact
       </h2>
 
+
       <p class="text-gray-400 mb-8">
+
         I'm interested in opportunities in robotics software,
-        autonomous systems, perception, and related robotics engineering roles.
+        autonomous systems, perception, computer vision,
+        and related robotics engineering roles.
+
         Feel free to connect with me.
+
       </p>
 
 
@@ -383,6 +636,7 @@
 
       <div class="flex justify-center gap-6 mt-6">
 
+
         <a
           href="https://www.linkedin.com/in/rahulmasagonimrg"
           target="_blank"
@@ -392,6 +646,7 @@
           <i class="fab fa-linkedin text-xl mr-2"></i>
           LinkedIn
         </a>
+
 
         <a
           href="https://github.com/rahulmasagoni"
@@ -403,14 +658,20 @@
           GitHub
         </a>
 
+
       </div>
 
+
     </div>
+
   </section>
 
 
-  <!-- Footer -->
-  <footer class="bg-gray-800 text-gray-400 text-center py-6">
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="bg-gray-900 text-gray-500 text-center py-6 border-t border-gray-800">
 
     <p>
       © 2026 Rahul Masagoni
