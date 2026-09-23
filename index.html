@@ -3,87 +3,421 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rahul Masagoni Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-50 text-gray-900">
-  <!-- Navbar -->
-  <header class="bg-white shadow sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold text-blue-600">Rahul's Portfolio</h1>
-      <nav class="space-x-6 hidden md:block">
-        <a href="#home" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
-        <a href="#projects" class="text-gray-700 hover:text-blue-600 font-medium">Projects</a>
-        <a href="resume.pdf" target="_blank" class="text-gray-700 hover:text-blue-600 font-medium">Resume</a>
 
-        <a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+  <title>Rahul Masagoni | Robotics Software Engineer</title>
+
+  <meta
+    name="description"
+    content="Portfolio of Rahul Masagoni, a Robotics Software Engineer specializing in autonomous systems, ROS, computer vision, motion planning, SLAM, and machine learning."
+  />
+
+  <!-- Tailwind CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+</head>
+
+<body class="bg-gray-900 text-gray-100">
+
+  <!-- Navbar -->
+  <header class="bg-gray-800 shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+      <h1 class="text-xl font-bold text-blue-400">
+        Rahul's Portfolio
+      </h1>
+
+      <nav class="space-x-6 hidden md:block">
+        <a
+          href="#home"
+          class="text-gray-300 hover:text-blue-400 font-medium"
+        >
+          Home
+        </a>
+
+        <a
+          href="#projects"
+          class="text-gray-300 hover:text-blue-400 font-medium"
+        >
+          Projects
+        </a>
+
+        <a
+          href="resume.pdf"
+          target="_blank"
+          class="text-gray-300 hover:text-blue-400 font-medium"
+        >
+          Resume
+        </a>
+
+        <a
+          href="#contact"
+          class="text-gray-300 hover:text-blue-400 font-medium"
+        >
+          Contact
+        </a>
       </nav>
+
       <div class="space-x-4 hidden md:flex">
-        <a href="https://www.linkedin.com/in/rahulmasagonimrg" target="_blank" class="text-gray-700 hover:text-blue-600"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://github.com/rahulmasagoni" target="_blank" class="text-gray-700 hover:text-blue-600"><i class="fab fa-github"></i> GitHub</a>
+
+        <a
+          href="https://www.linkedin.com/in/rahulmasagonimrg"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-300 hover:text-blue-400"
+        >
+          <i class="fab fa-linkedin mr-1"></i>
+          LinkedIn
+        </a>
+
+        <a
+          href="https://github.com/rahulmasagoni"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-300 hover:text-blue-400"
+        >
+          <i class="fab fa-github mr-1"></i>
+          GitHub
+        </a>
+
       </div>
     </div>
   </header>
 
+
   <!-- Hero Section -->
-  <section id="home" class="py-20 px-4 bg-gray-50">
+  <section id="home" class="py-20 px-4 bg-gray-900">
+
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
+
+      <!-- Hero Text -->
       <div class="flex-1 text-center md:text-left">
-        <h2 class="text-4xl font-extrabold mb-4">Hi, I'm Rahul Masagoni</h2>
-        <h3 class="text-xl text-blue-600 font-semibold mb-4">Robotics Grad Student</h3>
-        <p class="mb-6 max-w-xl">Hello! I am Rahul Masagoni, I'm a Robotics and Mechatronics Engineer with a B.Tech from SRM University, currently pursuing a Master’s in Robotics at the University at Buffalo. With advanced skills in Python, ROS, C++, and MATLAB, I build intelligent autonomous systems through research in robotic algorithms, perception, and motion planning. My experience spans smart agricultural automation, embedded systems, and simulation environments like Gazebo and CARLA...</p>
-       <a href="resume.pdf" download class="bg-blue-500 text-white px-6 py-3 rounded shadow hover:bg-blue-700 inline-block">
-  <i class="fas fa-download mr-2"></i>Download Resume
-</a>
+
+        <h2 class="text-4xl font-extrabold mb-4 text-white">
+          Hi, I'm Rahul Masagoni
+        </h2>
+
+        <h3 class="text-xl text-blue-400 font-semibold mb-4">
+          Robotics Software Engineer | Autonomous Systems & Perception
+        </h3>
+
+        <p class="mb-6 max-w-xl text-gray-300 leading-relaxed">
+          I am a Robotics and Mechatronics Engineer with an M.S. in Robotics
+          from the University at Buffalo and a B.Tech in Mechatronics
+          Engineering from SRM University.
+          My work focuses on autonomous robotics, computer vision,
+          motion planning, SLAM, perception, and machine learning.
+          I have hands-on project experience using Python, C++, ROS,
+          OpenCV, PyTorch, Gazebo, and MATLAB to develop and evaluate
+          intelligent robotic systems.
+        </p>
+
+        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+
+          <a
+            href="resume.pdf"
+            download
+            class="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 inline-block"
+          >
+            <i class="fas fa-download mr-2"></i>
+            Download Resume
+          </a>
+
+          <a
+            href="#projects"
+            class="border border-blue-500 text-blue-400 px-6 py-3 rounded hover:bg-blue-500 hover:text-white inline-block"
+          >
+            <i class="fas fa-code mr-2"></i>
+            View Projects
+          </a>
+
+        </div>
 
       </div>
+
+
+      <!-- Profile Image -->
       <div class="flex-1 flex justify-center mt-10 md:mt-0">
-        <img src="rahul_profile_circle.png" alt="Rahul Masagoni" class="rounded-full border-4 border-blue-600 shadow-lg w-80 h-80 object-cover" />
+
+        <img
+          src="rahul_profile_circle.png"
+          alt="Rahul Masagoni"
+          class="rounded-full border-4 border-blue-500 shadow-lg w-80 h-80 object-cover"
+        />
+
       </div>
+
     </div>
   </section>
+
 
   <!-- Projects Section -->
-  <section id="projects" class="py-20 bg-white px-4">
+  <section id="projects" class="py-20 bg-gray-800 px-4">
+
     <div class="max-w-7xl mx-auto">
-      <h2 class="text-3xl font-bold mb-12 text-center">Projects</h2>
+
+      <h2 class="text-3xl font-bold mb-4 text-center text-white">
+        Projects
+      </h2>
+
+      <p class="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
+        Selected projects in robotics, autonomous navigation,
+        computer vision, reinforcement learning, and machine learning.
+      </p>
+
+
       <div class="grid md:grid-cols-2 gap-8">
-        <div>
-          <h3 class="text-xl font-semibold">Smart IoT Based Integrated Farming</h3>
-          <p class="text-gray-600">Developed IoT system with sensors and Adafruit dashboard. Included rodent detection using image processing.</p>
+
+
+        <!-- Project 1 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Multi-Agent Reinforcement Learning for Swarm Coverage
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Developed a multi-agent reinforcement learning system for
+            autonomous coverage using 20 agents in a 20×20 environment.
+            Trained the agents using TRPO for approximately one million
+            simulation steps and achieved approximately 94% evaluation
+            coverage.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • Reinforcement Learning • TRPO • Multi-Agent Systems
+          </p>
+
         </div>
-        <div>
-          <h3 class="text-xl font-semibold">TurtleBot Navigation and Stereo VO</h3>
-          <p class="text-gray-600">Controlled TurtleBot3 in Gazebo. Implemented Bug 2 navigation and stereo visual odometry using ROS.</p>
+
+
+        <!-- Project 2 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            2D Blueprint to 3D Building Reconstruction
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Contributing to a computer vision pipeline that converts
+            2D architectural blueprints into structured 3D building models.
+            The workflow combines object detection, OCR, geometric
+            processing, room-boundary analysis, and 3D model generation
+            for walls, doors, and windows.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • YOLO • OCR • Computer Vision • 3D Reconstruction
+          </p>
+
         </div>
-        <div>
-          <h3 class="text-xl font-semibold">SLAM-Based Cost Map with LiDAR</h3>
-          <p class="text-gray-600">Generated dense point clouds and converted them into 2D cost maps for autonomous navigation.</p>
+
+
+        <!-- Project 3 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Autonomous Robot Navigation & Motion Planning
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Implemented autonomous navigation and motion-planning
+            algorithms including Bug2, RRT, and Hybrid A*.
+            Developed collision-aware planning and navigation workflows
+            using ROS and Gazebo for simulated mobile robots.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            ROS • Python • Gazebo • RRT • Hybrid A* • Motion Planning
+          </p>
+
         </div>
-        <div>
-          <h3 class="text-xl font-semibold">RRT-Based Path Planning in ROS</h3>
-          <p class="text-gray-600">Developed RRT-based planner with collision detection and dynamic obstacle handling.</p>
+
+
+        <!-- Project 4 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Stereo Visual Odometry
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Developed a stereo visual odometry pipeline using OpenCV
+            for feature detection, feature matching, motion estimation,
+            and robot trajectory reconstruction from stereo image sequences.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • OpenCV • Computer Vision • Visual Odometry
+          </p>
+
         </div>
-        <div>
-          <h3 class="text-xl font-semibold">Stereo Visual Odometry using OpenCV</h3>
-          <p class="text-gray-600">Built feature-based stereo VO pipeline using OpenCV and evaluated robot motion accuracy.</p>
+
+
+        <!-- Project 5 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Automatic Image Colorization Using CNNs
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Developed a CNN-based image colorization model for converting
+            grayscale images into realistic color outputs. Implemented
+            the training pipeline in PyTorch using Tiny ImageNet and
+            evaluated performance using MSE, SSIM, and PSNR.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • PyTorch • CNN • Deep Learning • Computer Vision
+          </p>
+
         </div>
-        <div>
-          <h3 class="text-xl font-semibold">Energy-Efficient Optimal Path Planning</h3>
-          <p class="text-gray-600">Used Hybrid A* to minimize energy use and time for autonomous robots under constraints.</p>
+
+
+        <!-- Project 6 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            SLAM-Based Cost Map Generation with LiDAR
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Processed LiDAR and mapping data to generate point clouds
+            and convert environmental information into 2D cost maps
+            for autonomous robot navigation and obstacle-aware planning.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            ROS • SLAM • LiDAR • Point Clouds • Autonomous Navigation
+          </p>
+
         </div>
+
+
+        <!-- Project 7 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Smart IoT-Based Integrated Farming
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Developed an IoT-based agricultural monitoring system
+            integrating environmental sensors, embedded hardware,
+            and an Adafruit dashboard. The system also incorporated
+            image-processing-based rodent detection.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            IoT • Embedded Systems • Sensors • Image Processing
+          </p>
+
+        </div>
+
+
+        <!-- Project 8 -->
+        <div class="bg-gray-900 p-6 rounded-lg shadow">
+
+          <h3 class="text-xl font-semibold text-white mb-3">
+            Energy-Efficient Optimal Path Planning
+          </h3>
+
+          <p class="text-gray-400 mb-4">
+            Developed an energy-aware autonomous path-planning approach
+            using Hybrid A* to generate feasible trajectories while
+            considering travel time, vehicle constraints, and energy
+            consumption.
+          </p>
+
+          <p class="text-blue-400 text-sm font-medium">
+            Python • Hybrid A* • Optimization • Path Planning
+          </p>
+
+        </div>
+
+
       </div>
     </div>
   </section>
 
+
   <!-- Contact Section -->
-  <section id="contact" class="py-20 px-4 bg-gray-100">
+  <section id="contact" class="py-20 px-4 bg-gray-900">
+
     <div class="max-w-2xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4">Contact</h2>
-      <p class="text-gray-700 mb-6"> please feel free to connect!</p>
-      <p class="mb-2"><strong>Email:</strong> <a href="mailto:rahulmasagoni@gmail.com" class="text-blue-600">rahulmasagoni@gmail.com</a></p>
-      <p><strong>Phone:</strong> <a href="tel:+13124939143" class="text-blue-600">+1 (312) 493-9143</a></p>
+
+      <h2 class="text-3xl font-bold mb-4 text-white">
+        Contact
+      </h2>
+
+      <p class="text-gray-400 mb-8">
+        I'm interested in opportunities in robotics software,
+        autonomous systems, perception, and related robotics engineering roles.
+        Feel free to connect with me.
+      </p>
+
+
+      <p class="mb-4">
+
+        <strong class="text-gray-200">
+          Email:
+        </strong>
+
+        <a
+          href="mailto:rahulmasagoni@gmail.com"
+          class="text-blue-400 hover:text-blue-300"
+        >
+          rahulmasagoni@gmail.com
+        </a>
+
+      </p>
+
+
+      <div class="flex justify-center gap-6 mt-6">
+
+        <a
+          href="https://www.linkedin.com/in/rahulmasagonimrg"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-300 hover:text-blue-400"
+        >
+          <i class="fab fa-linkedin text-xl mr-2"></i>
+          LinkedIn
+        </a>
+
+        <a
+          href="https://github.com/rahulmasagoni"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-gray-300 hover:text-blue-400"
+        >
+          <i class="fab fa-github text-xl mr-2"></i>
+          GitHub
+        </a>
+
+      </div>
+
     </div>
   </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-400 text-center py-6">
+
+    <p>
+      © 2026 Rahul Masagoni
+    </p>
+
+  </footer>
+
+
 </body>
 </html>
